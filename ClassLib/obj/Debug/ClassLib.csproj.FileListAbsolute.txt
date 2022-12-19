@@ -1,0 +1,11 @@
+C:\Users\Saltn\RiderProjects\BegbyWeather\ClassLib\bin\Debug\ClassLib.dll
+C:\Users\Saltn\RiderProjects\BegbyWeather\ClassLib\bin\Debug\ClassLib.pdb
+C:\Users\Saltn\RiderProjects\BegbyWeather\ClassLib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Saltn\RiderProjects\BegbyWeather\ClassLib\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Saltn\RiderProjects\BegbyWeather\ClassLib\obj\Debug\ClassLib.csproj.AssemblyReference.cache
+C:\Users\Saltn\RiderProjects\BegbyWeather\ClassLib\obj\Debug\ClassLib.csproj.CoreCompileInputs.cache
+C:\Users\Saltn\RiderProjects\BegbyWeather\ClassLib\obj\Debug\ClassLib.csproj.CopyComplete
+C:\Users\Saltn\RiderProjects\BegbyWeather\ClassLib\obj\Debug\ClassLib.dll
+C:\Users\Saltn\RiderProjects\BegbyWeather\ClassLib\obj\Debug\ClassLib.pdb
+C:\Users\Saltn\RiderProjects\BegbyWeather\ClassLib\bin\Debug\BusinessObjects.dll
+C:\Users\Saltn\RiderProjects\BegbyWeather\ClassLib\bin\Debug\BusinessObjects.pdb

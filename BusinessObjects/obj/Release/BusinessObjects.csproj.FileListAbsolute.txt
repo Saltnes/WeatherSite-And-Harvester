@@ -1,0 +1,6 @@
+C:\RiderSolutions\BegbyWeatherWP\BusinessObjects\bin\Release\BusinessObjects.dll
+C:\RiderSolutions\BegbyWeatherWP\BusinessObjects\bin\Release\BusinessObjects.pdb
+C:\RiderSolutions\BegbyWeatherWP\BusinessObjects\obj\Release\BusinessObjects.csproj.AssemblyReference.cache
+C:\RiderSolutions\BegbyWeatherWP\BusinessObjects\obj\Release\BusinessObjects.csproj.CoreCompileInputs.cache
+C:\RiderSolutions\BegbyWeatherWP\BusinessObjects\obj\Release\BusinessObjects.dll
+C:\RiderSolutions\BegbyWeatherWP\BusinessObjects\obj\Release\BusinessObjects.pdb
