@@ -4,3 +4,9 @@ C:\RiderSolutions\BegbyWeatherWP\BusinessObjects\obj\Debug\BusinessObjects.cspro
 C:\RiderSolutions\BegbyWeatherWP\BusinessObjects\obj\Debug\BusinessObjects.csproj.CoreCompileInputs.cache
 C:\RiderSolutions\BegbyWeatherWP\BusinessObjects\obj\Debug\BusinessObjects.dll
 C:\RiderSolutions\BegbyWeatherWP\BusinessObjects\obj\Debug\BusinessObjects.pdb
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BusinessObjects\bin\Debug\BusinessObjects.dll
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BusinessObjects\bin\Debug\BusinessObjects.pdb
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BusinessObjects\obj\Debug\BusinessObjects.csproj.AssemblyReference.cache
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BusinessObjects\obj\Debug\BusinessObjects.csproj.CoreCompileInputs.cache
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BusinessObjects\obj\Debug\BusinessObjects.dll
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BusinessObjects\obj\Debug\BusinessObjects.pdb

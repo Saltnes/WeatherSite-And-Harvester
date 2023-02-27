@@ -9,3 +9,14 @@ C:\RiderSolutions\BegbyWeatherWP\BusinessLayer\obj\Debug\BusinessLayer.csproj.Co
 C:\RiderSolutions\BegbyWeatherWP\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 C:\RiderSolutions\BegbyWeatherWP\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\RiderSolutions\BegbyWeatherWP\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BusinessLayer\bin\Debug\BusinessObjects.dll
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BusinessLayer\bin\Debug\DBLayer.dll
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BusinessLayer\bin\Debug\BusinessObjects.pdb
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BusinessLayer\bin\Debug\DBLayer.pdb
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BusinessLayer\obj\Debug\BusinessLayer.pdb

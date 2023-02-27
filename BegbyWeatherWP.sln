@@ -5,13 +5,11 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BegbyWeatherWP", "BegbyWeatherWP\BegbyWeatherWP.csproj", "{5FC086AB-3A49-457A-B2CF-361413CA6BEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLib", "..\..\Users\Saltn\RiderProjects\BegbyWeather\ClassLib\ClassLib.csproj", "{B4AE6283-62AE-4DB0-A688-70A109E2423D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarvesterW", "..\..\Users\Saltn\RiderProjects\BegbyWeather\HarvesterW\HarvesterW.csproj", "{7A724969-6BDF-4E74-805B-EA9DE8FF8835}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{7ABA7644-6D47-4919-8128-AEE18A537AA0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjects", "BusinessObjects\BusinessObjects.csproj", "{44E0A9C7-916C-4F82-9347-E694A0FE163F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBLayer", "DBLayer\DBLayer.csproj", "{59591D1F-0200-4E30-86C8-45613E5C81EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,14 +21,6 @@ Global
 		{5FC086AB-3A49-457A-B2CF-361413CA6BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FC086AB-3A49-457A-B2CF-361413CA6BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FC086AB-3A49-457A-B2CF-361413CA6BEE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4AE6283-62AE-4DB0-A688-70A109E2423D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4AE6283-62AE-4DB0-A688-70A109E2423D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4AE6283-62AE-4DB0-A688-70A109E2423D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4AE6283-62AE-4DB0-A688-70A109E2423D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7A724969-6BDF-4E74-805B-EA9DE8FF8835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A724969-6BDF-4E74-805B-EA9DE8FF8835}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A724969-6BDF-4E74-805B-EA9DE8FF8835}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A724969-6BDF-4E74-805B-EA9DE8FF8835}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7ABA7644-6D47-4919-8128-AEE18A537AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7ABA7644-6D47-4919-8128-AEE18A537AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ABA7644-6D47-4919-8128-AEE18A537AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +29,10 @@ Global
 		{44E0A9C7-916C-4F82-9347-E694A0FE163F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44E0A9C7-916C-4F82-9347-E694A0FE163F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44E0A9C7-916C-4F82-9347-E694A0FE163F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59591D1F-0200-4E30-86C8-45613E5C81EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59591D1F-0200-4E30-86C8-45613E5C81EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59591D1F-0200-4E30-86C8-45613E5C81EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59591D1F-0200-4E30-86C8-45613E5C81EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
