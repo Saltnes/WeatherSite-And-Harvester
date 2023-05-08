@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Net;
+using System.Threading;
 using DBLayer;
 using Newtonsoft.Json.Linq;
 
@@ -10,21 +11,56 @@ namespace Harvester
     {
         static void Main(string[] args)
         {
-            GetWeather();
+            int retryCount = 0;
+            bool exitProgram = false;
+
+            while (!exitProgram && retryCount < 2)
+            {
+                try
+                {
+                    GetWeather();
+                    // If data is successfully retrieved, exit the loop
+                    exitProgram = true;
+                }
+                catch (NoDataException)
+                {
+                    // If no data is available, wait for the specified delay before retrying
+                    if (retryCount == 0)
+                    {
+                        Thread.Sleep(TimeSpan.FromMinutes(3));
+                    }
+                    else if (retryCount == 1)
+                    {
+                        Thread.Sleep(TimeSpan.FromMinutes(5));
+                    }
+
+                    retryCount++;
+                }
+                catch (Exception ex)
+                {
+                    // Handle other exceptions here
+                    Console.WriteLine($"An error occurred: {ex.Message}");
+                    // Wait for 5 minutes before retrying
+                    Thread.Sleep(TimeSpan.FromMinutes(5));
+                }
+            }
         }
 
         private static void GetWeather()
         {
-            //http://jsonviewer.stack.hu/
-            //59.202752, 10.953535
-            try
+            var httpWebRequest = (HttpWebRequest)WebRequest.Create(
+                "https://api.met.no/weatherapi/nowcast/2.0/complete.json?altitude=37&lat=59.2796&lon=10.7849");
+            httpWebRequest.ContentType = "application/json";
+            httpWebRequest.Method = "GET";
+            httpWebRequest.UserAgent = "ithilien";
+
+            using (var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse())
             {
-                var httpWebRequest = (HttpWebRequest)WebRequest.Create(
-                    "https://api.met.no/weatherapi/nowcast/2.0/complete.json?altitude=37&lat=59.2796&lon=10.7849");
-                httpWebRequest.ContentType = "application/json";
-                httpWebRequest.Method = "GET";
-                httpWebRequest.UserAgent = "ithilien";
-                var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+                if (httpResponse.StatusCode == HttpStatusCode.NoContent)
+                {
+                    // If no data is available, throw a custom exception
+                    throw new NoDataException("No data available in the API.");
+                }
 
                 using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
                 {
@@ -46,47 +82,14 @@ namespace Harvester
                         AirTemperature, Humidity, WindSpeed, WindGust, WindDirection, Rain);
                 }
             }
-            catch (Exception ex)
-            {
-            }
         }
+    }
 
-        public int GetStuff()
+    // Custom exception class for indicating no data available
+    public class NoDataException : Exception
+    {
+        public NoDataException(string message) : base(message)
         {
-            //http://jsonviewer.stack.hu/
-            //https://peterdaugaardrasmussen.com/2022/01/18/how-to-get-a-property-from-json-using-selecttoken/
-            //create the httpwebrequest
-            var httpWebRequest =
-                (HttpWebRequest)WebRequest.Create(
-                    "https://api.met.no/weatherapi/nowcast/2.0/complete.json?altitude=37&lat=59.2796&lon=10.7849");
-
-            //the usual stuff. run the request, parse your json
-            try
-            {
-                httpWebRequest.ContentType = "application/json";
-                httpWebRequest.Method = "GET";
-                httpWebRequest.UserAgent = "";
-                var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
-
-                using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
-                {
-                    var result = streamReader.ReadToEnd();
-                    JObject jObj = JObject.Parse(result);
-                    //JToken data = jObj.SelectToken("path");
-                    //int valuepm1 = data.Value<int>("keyname");//key name - getting key.value
-                    //int valuepm25 = data.Value<int>("pm25");
-                    //int radonValue = data.Value<int>("radonShortTermAvg");
-                    // inn i db
-                }
-
-                return 0;
-            }
-            catch
-            {
-                Exception ex;
-            }
-
-            return 0;
         }
     }
 }
