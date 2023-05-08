@@ -78,7 +78,6 @@ C:\RiderSolutions\BegbyWeatherWP\BegbyWeatherWP\bin\BusinessLayer.dll
 C:\RiderSolutions\BegbyWeatherWP\BegbyWeatherWP\bin\BusinessLayer.pdb
 C:\RiderSolutions\BegbyWeatherWP\BegbyWeatherWP\bin\BusinessObjects.dll
 C:\RiderSolutions\BegbyWeatherWP\BegbyWeatherWP\bin\BusinessObjects.pdb
-C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BegbyWeatherWP\bin\BegbyWeatherWP.dll.config
 C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BegbyWeatherWP\bin\BegbyWeatherWP.dll
 C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BegbyWeatherWP\bin\BegbyWeatherWP.pdb
 C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\BegbyWeatherWP\bin\roslyn\csc.exe

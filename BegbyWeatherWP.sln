@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjects", "Business
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBLayer", "DBLayer\DBLayer.csproj", "{59591D1F-0200-4E30-86C8-45613E5C81EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harvester", "Harvester\Harvester.csproj", "{0EB4DD32-2503-4359-82F4-F1B25129680F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{59591D1F-0200-4E30-86C8-45613E5C81EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59591D1F-0200-4E30-86C8-45613E5C81EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59591D1F-0200-4E30-86C8-45613E5C81EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EB4DD32-2503-4359-82F4-F1B25129680F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB4DD32-2503-4359-82F4-F1B25129680F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB4DD32-2503-4359-82F4-F1B25129680F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB4DD32-2503-4359-82F4-F1B25129680F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
