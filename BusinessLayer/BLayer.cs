@@ -11,25 +11,25 @@ namespace BusinessLayer
     {
         public List<Weather> CurrentTemperature()
         {
-            var dbl = new DBLayer.DBLayer();
+            var dbl = new DbLayer();
             return dbl.GetCurrentTemp();
         }
 
         public List<Weather> GetDailyWeather()
         {
-            var dbl = new DBLayer.DBLayer();
+            var dbl = new DbLayer();
             return dbl.GetDailyWeatherData(DateTime.Now.Day, DateTime.Now.Month, DateTime.Now.Year);
         }
 
         public List<Weather> GetTempReadingsByMonthAndDay(int year, int month, int day)
         {
-            DBLayer.DBLayer dbl = new DBLayer.DBLayer();
+            DbLayer dbl = new DbLayer();
             return dbl.GetDailyWeatherData(day, month, year);
         }
 
         public double GetAverageAirTemperatureDay(int day, int month, int year)
         {
-            DBLayer.DBLayer dbl = new DBLayer.DBLayer();
+            DbLayer dbl = new DbLayer();
             List<Weather> weathers = dbl.GetDailyWeatherData(day, month, year);
             double averageAirTemperature = weathers.Average(w => w.AirTemperature);
 
@@ -37,7 +37,7 @@ namespace BusinessLayer
         }
         public double GetMaxAirTemperatureDay(int day, int month, int year)
         {
-            DBLayer.DBLayer dbl = new DBLayer.DBLayer();
+            DbLayer dbl = new DbLayer();
             List<Weather> weathers = dbl.GetDailyWeatherData(day, month, year);
             double averageAirTemperature = weathers.Max(w => w.AirTemperature);
 
@@ -45,7 +45,7 @@ namespace BusinessLayer
         }
         public double GetMinAirTemperatureDay(int day, int month, int year)
         {
-            DBLayer.DBLayer dbl = new DBLayer.DBLayer();
+            DbLayer dbl = new DbLayer();
             List<Weather> weathers = dbl.GetDailyWeatherData(day, month, year);
             double averageAirTemperature = weathers.Min(w => w.AirTemperature);
 

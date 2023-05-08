@@ -5,9 +5,9 @@ using System.Data;
 using System.Data.SqlClient;
 using BusinessObjects;
 
-namespace DBLayer 
+namespace DBLayer
 {
-    public class DBLayer
+    public class DbLayer
     {
         public void InsertWeatherValues(int year, int month, int day, int hour, DateTime DateAndTime,
             double AirTemperature, double Humidity, double WindSpeed, double WindGust,
@@ -144,7 +144,8 @@ namespace DBLayer
             {
                 conn.Open();
                 SqlCommand cmd =
-                    new SqlCommand("SELECT * FROM KjerreWeather WHERE year =@Year AND month =@Month AND day =@Day", conn);
+                    new SqlCommand("SELECT * FROM KjerreWeather WHERE year =@Year AND month =@Month AND day =@Day",
+                        conn);
                 cmd.CommandType = CommandType.Text;
 
                 param = new SqlParameter("@day", SqlDbType.Int);
@@ -154,7 +155,7 @@ namespace DBLayer
                 param = new SqlParameter("@month", SqlDbType.Int);
                 param.Value = month;
                 cmd.Parameters.Add(param);
-                
+
                 param = new SqlParameter("@year", SqlDbType.Int);
                 param.Value = year;
                 cmd.Parameters.Add(param);

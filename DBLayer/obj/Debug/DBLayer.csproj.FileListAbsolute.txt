@@ -1,0 +1,9 @@
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\DBLayer\bin\Debug\DBLayer.dll
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\DBLayer\bin\Debug\DBLayer.pdb
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\DBLayer\bin\Debug\BusinessObjects.dll
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\DBLayer\bin\Debug\BusinessObjects.pdb
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\DBLayer\obj\Debug\DBLayer.csproj.AssemblyReference.cache
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\DBLayer\obj\Debug\DBLayer.csproj.CoreCompileInputs.cache
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\DBLayer\obj\Debug\DBLayer.csproj.CopyComplete
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\DBLayer\obj\Debug\DBLayer.dll
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\DBLayer\obj\Debug\DBLayer.pdb

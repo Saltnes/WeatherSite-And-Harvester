@@ -1,0 +1,15 @@
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\Harvester\bin\Debug\Harvester.exe
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\Harvester\bin\Debug\Harvester.pdb
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\Harvester\bin\Debug\DBLayer.dll
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\Harvester\bin\Debug\Newtonsoft.Json.dll
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\Harvester\bin\Debug\BusinessObjects.dll
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\Harvester\bin\Debug\DBLayer.pdb
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\Harvester\bin\Debug\Newtonsoft.Json.xml
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\Harvester\bin\Debug\BusinessObjects.pdb
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\Harvester\obj\Debug\Harvester.csproj.AssemblyReference.cache
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\Harvester\obj\Debug\Harvester.csproj.SuggestedBindingRedirects.cache
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\Harvester\obj\Debug\Harvester.csproj.CoreCompileInputs.cache
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\Harvester\obj\Debug\Harvester.csproj.CopyComplete
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\Harvester\obj\Debug\Harvester.exe
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\Harvester\obj\Debug\Harvester.pdb
+C:\Users\robin\RiderProjects\WeatherSite-And-Harvester\Harvester\bin\Debug\Harvester.exe.config
