@@ -11,30 +11,30 @@ namespace Harvester
     {
         static void Main(string[] args)
         {
-            int retryCount = 0;
+            int retryDelay = 3; // Initial retry delay in minutes
             bool exitProgram = false;
 
-            while (!exitProgram && retryCount < 2)
+            while (!exitProgram)
             {
                 try
                 {
                     GetWeather();
-                    // If data is successfully retrieved, exit the loop
                     exitProgram = true;
                 }
                 catch (NoDataException)
                 {
-                    // If no data is available, wait for the specified delay before retrying
-                    if (retryCount == 0)
-                    {
-                        Thread.Sleep(TimeSpan.FromMinutes(3));
-                    }
-                    else if (retryCount == 1)
-                    {
-                        Thread.Sleep(TimeSpan.FromMinutes(5));
-                    }
+                    
+                    Thread.Sleep(TimeSpan.FromMinutes(retryDelay));
 
-                    retryCount++;
+                    if (retryDelay == 3)
+                    {
+                        retryDelay = 5;
+                    }
+                    else
+                    {
+
+                        exitProgram = true;
+                    }
                 }
                 catch (Exception ex)
                 {
